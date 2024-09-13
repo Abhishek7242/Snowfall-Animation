@@ -1,0 +1,76 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Lato", sans-serif;
+  font-weight: 300;
+
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+     background: url('https://aipict.com/wp-content/uploads/2023/09/snowy-mountains01-1024x683.png')no-repeat center center/cover;
+     overflow: hidden;
+
+    }
+
+    .container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      filter: blur(2px);
+
+mix-blend-mode: screen;
+    background: url('https://www.pngplay.com/wp-content/uploads/12/Snow-PNG-Background.png');
+    }
+    .snow1{
+animation: animatesnow1  25s linear infinite;
+
+    }
+    .snow2{
+    background: url('https://www.pngall.com/wp-content/uploads/15/Snow-Falling-PNG-Image-File.png');
+
+animation: animatesnow2  20s linear infinite;
+
+    }
+    .snow3{
+    background: url('https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Winter-PNG/Transparent_Snowfall_PNG_Effect.png?m=1629820995');
+
+animation: animatesnow3  25s linear infinite;
+      transform: scale(2);
+
+    }
+    @keyframes animatesnow1 {
+      
+    0%{
+      background-position:0 0  ;
+    }
+    100%{
+      background-position:900px 506px  ;
+    }
+    }
+    @keyframes animatesnow2 {
+      
+    0%{
+      background-position:0 0  ;
+    }
+    100%{
+      background-position:900px 506px  ;
+    }
+    }
+    @keyframes animatesnow3 {
+      
+    0%{
+      background-position:0 0  ;
+    }
+    100%{
+      background-position:0px 506px  ;
+    }
+    }
+    
